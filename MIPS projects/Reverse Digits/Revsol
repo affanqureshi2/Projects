@@ -1,0 +1,30 @@
+addi $t0, $zero, 8200 # Output loc \
+addi $t3, $zero, 5007
+addi $t4, $zero, 5004
+
+BegLoop: addi $t6, $zero, 8192 # Input ready? 
+lw $t5, 0($t6) 
+beq $t5, $zero, NoInput 
+addi $t6, $zero, 8196 # Input loc 
+lw $t1, 0($t6) 
+#addi $t2, $zero, 1 
+
+#Just making a stack
+sw $t1,0($t3)			#store in an array
+addi $t3,$zero,-4		#decrement the value
+beq	$t4,$t3,out		#if length of array filled then show output
+#mul $t2, $t2, $t1 # Times Input 
+#sw $t2, 0($t0) # Output to screen 
+#mul $t2, $t2, $t1 # Times Input 
+#sw $t2, 0($t0) # Output to screen 
+#mul $t2, $t2, $t1 # Times Input 
+#sw $t2, 0($t0) # Output to screen 
+j BegLoop 
+
+out:
+addi $t3, $zero, 5007		#for comparing with the length to exit
+sw $t4, 0($t0) 			# Output to screen, Give the top value of stack	
+addi $t4,$zero,4		#Increment the value 
+beq  $t4,$t3,exit		#if length filled then exit
+exit:
+NoInput:

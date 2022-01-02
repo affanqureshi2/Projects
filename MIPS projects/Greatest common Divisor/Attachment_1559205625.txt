@@ -1,0 +1,91 @@
+Include Irvine32.inc
+
+.data
+
+            array SDWORD -5,-20,18,24,11,7,438,226,13,-26
+
+str1 byte "Greatest common divisor is: ",0
+
+.code
+
+main PROC
+
+mov ecx, LENGTHOF array /2
+
+mov esi,OFFSET array
+
+l1:
+
+mov edi,2
+
+l3:
+
+            mov eax,[esi]
+
+            add esi,4
+
+            cmp eax,0
+
+            jl l9
+
+            jmp l2
+
+l9:
+
+            neg eax
+
+l2:
+
+            push eax
+
+            dec edi
+
+            cmp edi,0
+
+            jne l3
+
+            call gcd
+
+            mov edx, offset str1
+
+            call writestring
+
+            call writedec
+
+            call crlf
+
+            loop l1
+
+                        exit
+
+main ENDP
+
+gcd proc
+
+            pop edi
+
+            pop eax
+
+            pop ebx
+
+gcd1:
+
+            mov edx,0
+
+            div ebx
+
+            mov eax,ebx
+
+            mov ebx,edx
+
+            cmp ebx,0
+
+            jg gcd1
+
+            push edi
+
+ret
+
+gcd endp
+
+END main

@@ -1,0 +1,6 @@
+La ropa sucia se lava en casa.
+0 1 1 2 3 5
+4 0
+14 7
+landav
+5 4 1 3 6 2
