@@ -1,0 +1,36 @@
+﻿Build started 12-Oct-16 10:39:48 AM.
+     1>Project "E:\My Studies\2nd Semester\Computer Programming\C++\After mid\Programming\MFCApplication5\MFCApplication5.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Zeeshan Develop\VS13\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\MFCApplication5.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\Zeeshan Develop\VS13\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFCApplication5.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ClassView.cpp FileView.cpp MainFrm.cpp MFCApplication5.cpp MFCApplication5Doc.cpp MFCApplication5View.cpp OutputWnd.cpp PropertiesWnd.cpp ViewTree.cpp
+         ViewTree.cpp
+         PropertiesWnd.cpp
+         OutputWnd.cpp
+         MFCApplication5View.cpp
+         MFCApplication5Doc.cpp
+         MFCApplication5.cpp
+         MainFrm.cpp
+         FileView.cpp
+         ClassView.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\MFCApplication5.res" MFCApplication5.rc 
+       Link:
+         E:\Zeeshan Develop\VS13\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\My Studies\2nd Semester\Computer Programming\C++\After mid\Programming\MFCApplication5\Debug\MFCApplication5.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"E:\Zeeshan Develop\VS13\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\My Studies\2nd Semester\Computer Programming\C++\After mid\Programming\MFCApplication5\Debug\MFCApplication5.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\My Studies\2nd Semester\Computer Programming\C++\After mid\Programming\MFCApplication5\Debug\MFCApplication5.lib" /MACHINE:X86 Debug\MFCApplication5.res
+         Debug\ClassView.obj
+         Debug\FileView.obj
+         Debug\MainFrm.obj
+         Debug\MFCApplication5.obj
+         Debug\MFCApplication5Doc.obj
+         Debug\MFCApplication5View.obj
+         Debug\OutputWnd.obj
+         Debug\PropertiesWnd.obj
+         Debug\stdafx.obj
+         Debug\ViewTree.obj
+         MFCApplication5.vcxproj -> E:\My Studies\2nd Semester\Computer Programming\C++\After mid\Programming\MFCApplication5\Debug\MFCApplication5.exe
+     1>Done Building Project "E:\My Studies\2nd Semester\Computer Programming\C++\After mid\Programming\MFCApplication5\MFCApplication5.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:22.18

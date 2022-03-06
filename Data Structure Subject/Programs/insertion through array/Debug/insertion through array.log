@@ -1,0 +1,14 @@
+﻿Build started 20-Dec-16 8:11:07 PM.
+     1>Project "E:\My Studies\3rd Semester\DSA\Programs\insertion through array\insertion through array.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Zeeshan Develop\VS13\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>e:\my studies\3rd semester\dsa\programs\insertion through array\source.cpp(34): warning C4551: function call missing argument list
+       Link:
+         E:\Zeeshan Develop\VS13\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\My Studies\3rd Semester\DSA\Programs\insertion through array\Debug\insertion through array.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\My Studies\3rd Semester\DSA\Programs\insertion through array\Debug\insertion through array.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\My Studies\3rd Semester\DSA\Programs\insertion through array\Debug\insertion through array.lib" /MACHINE:X86 Debug\Source.obj
+         insertion through array.vcxproj -> E:\My Studies\3rd Semester\DSA\Programs\insertion through array\Debug\insertion through array.exe
+     1>Done Building Project "E:\My Studies\3rd Semester\DSA\Programs\insertion through array\insertion through array.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.12

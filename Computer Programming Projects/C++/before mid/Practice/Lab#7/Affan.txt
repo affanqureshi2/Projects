@@ -1,0 +1,4 @@
+Name = Affan				Roll = 15
+Semester = 2				Session = 2015
+
+        Ser No.   Subject Name          MarksGrade

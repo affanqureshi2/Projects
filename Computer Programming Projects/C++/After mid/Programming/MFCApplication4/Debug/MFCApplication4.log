@@ -1,0 +1,26 @@
+﻿Build started 04-Oct-16 2:16:57 PM.
+     1>Project "E:\My Studies\2nd Semester\Computer Programming\C++\After mid\Programming\MFCApplication4\MFCApplication4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Zeeshan Develop\VS13\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFCApplication4.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CalendarBar.cpp MFCApplication4.cpp MFCApplication4Doc.cpp MFCApplication4View.cpp MainFrm.cpp
+         Skipping... (no relevant changes detected)
+         MainFrm.cpp
+         MFCApplication4View.cpp
+         MFCApplication4Doc.cpp
+         MFCApplication4.cpp
+         CalendarBar.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\MFCApplication4.res" MFCApplication4.rc 
+       Link:
+         E:\Zeeshan Develop\VS13\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\My Studies\2nd Semester\Computer Programming\C++\After mid\Programming\MFCApplication4\Debug\MFCApplication4.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"E:\Zeeshan Develop\VS13\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"E:\My Studies\2nd Semester\Computer Programming\C++\After mid\Programming\MFCApplication4\Debug\MFCApplication4.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\My Studies\2nd Semester\Computer Programming\C++\After mid\Programming\MFCApplication4\Debug\MFCApplication4.lib" /MACHINE:X86 Debug\MFCApplication4.res
+         Debug\CalendarBar.obj
+         Debug\MainFrm.obj
+         Debug\MFCApplication4.obj
+         Debug\MFCApplication4Doc.obj
+         Debug\MFCApplication4View.obj
+         Debug\stdafx.obj
+         MFCApplication4.vcxproj -> E:\My Studies\2nd Semester\Computer Programming\C++\After mid\Programming\MFCApplication4\Debug\MFCApplication4.exe
+     1>Done Building Project "E:\My Studies\2nd Semester\Computer Programming\C++\After mid\Programming\MFCApplication4\MFCApplication4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.32

@@ -1,0 +1,19 @@
+module fulladd4(sum,ct,a,b,c_in);
+output [3:0]sum;
+output ct;
+input [3:0] a, b;
+input c_in;
+wire c1,c2,c3,c4,c5,c6,w1,w2,w3,c_out;
+wire [3:0]z;
+full_adder fa0(z[0],c1,a[0],b[0],c_in);
+full_adder fa1(z[1],c2,a[1],b[1],c1);
+full_adder fa2(z[2],c3,a[2],b[2],c2);
+full_adder fa3(z[3],c_out,a[3],b[3],c3);
+and n1(w1,z[3],z[2]);
+and n2(w2,z[3],z[1]);
+or  n3(w3,w1,w2,c_out);
+full_adder fa4(sum[0],c4,z[0],0,c_in);
+full_adder fa5(sum[1],c5,z[1],w3,c4);
+full_adder fa6(sum[2],c6,z[2],w3,c5);
+full_adder fa7(sum[3],ct,z[3],0,c6);
+endmodule
